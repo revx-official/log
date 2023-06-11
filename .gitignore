@@ -1,0 +1,16 @@
+# Ignore all files by default, but scan all directories.
+*
+!*/
+
+# Do not ignore git files.
+!.git*
+
+# Do not ignore source files.
+!*.go
+
+# Do not ignore module files.
+!*.mod
+!*.sum
+
+# Do not ignore markdown files.
+!*.md
