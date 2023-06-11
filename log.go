@@ -7,7 +7,7 @@ import (
 // Description:
 //
 //	The global log level.
-var Level = core.LogLevelInfo
+var Level = LogLevelInfo
 
 // Description:
 //
