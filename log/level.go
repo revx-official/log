@@ -8,20 +8,20 @@ type LogLevel = uint32
 
 const (
 	// The trace log level.
-	LogLevelTrace LogLevel = iota
+	LevelTrace LogLevel = iota
 
 	// The debug log level.
-	LogLevelDebug LogLevel = iota
+	LevelDebug LogLevel = iota
 
 	// The info log level.
-	LogLevelInfo LogLevel = iota
+	LevelInfo LogLevel = iota
 
 	// The warn log level.
-	LogLevelWarn LogLevel = iota
+	LevelWarn LogLevel = iota
 
 	// The error log level.
-	LogLevelError LogLevel = iota
+	LevelError LogLevel = iota
 
 	// The fatal log level.
-	LogLevelFatal LogLevel = iota
+	LevelFatal LogLevel = iota
 )

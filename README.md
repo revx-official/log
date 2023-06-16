@@ -1,8 +1,8 @@
-# log
+# output
 
 ---
 
-*log* is part of the *revx* project. It is a simple logging framework which enables colored console output.
+*output* is part of the *revx* project. It is a simple logging framework which enables colored console output.
 
 Features:
 
@@ -16,7 +16,7 @@ Features:
 
 ```go
 import (
-  "github.com/revx-official/log"
+  "github.com/revx-official/output/log"
 )
 
 func main() {
@@ -46,7 +46,7 @@ Using a fixed log level:
 
 ```go
 import (
-  "github.com/revx-official/log"
+  "github.com/revx-official/output/log"
 )
 
 func init() {
@@ -63,7 +63,7 @@ Using flags:
 
 ```go
 import (
-  "github.com/revx-official/log"
+  "github.com/revx-official/output/log"
 )
 
 func main() {
@@ -86,7 +86,7 @@ To adjust the colors used for console logging, have a look at the following exam
 
 ```go
 import (
-  "github.com/revx-official/log"
+  "github.com/revx-official/output/console"
 )
 
 func init() {

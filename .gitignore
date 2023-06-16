@@ -2,15 +2,15 @@
 *
 !*/
 
-# Do not ignore git files.
+# Exclude git files.
 !.git*
 
-# Do not ignore source files.
+# Exclude source files.
 !*.go
 
-# Do not ignore module files.
+# Exclude module files.
 !*.mod
 !*.sum
 
-# Do not ignore markdown files.
+# Exclude markdown files.
 !*.md

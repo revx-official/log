@@ -11,9 +11,15 @@ import (
 // Description:
 //
 //	Package initialization function.
-//	This function is executed only on Windows.
-//	Prepares the windows console to accept ASCII escape sequences.
 func init() {
+	EnableVirtualTerminal()
+}
+
+// Description:
+//
+//	Enables virtual terminal processing for the Windows console.
+//	Enables the Windows console to accept ASCII escape sequences.
+func EnableVirtualTerminal() {
 	var outMode uint32
 
 	out := windows.Handle(os.Stdout.Fd())
@@ -26,4 +32,4 @@ func init() {
 
 	outMode |= windows.ENABLE_PROCESSED_OUTPUT | windows.ENABLE_VIRTUAL_TERMINAL_PROCESSING
 	_ = windows.SetConsoleMode(out, outMode)
-}
+}F

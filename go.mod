@@ -1,4 +1,4 @@
-module github.com/revx-official/log
+module github.com/revx-official/output
 
 go 1.20
 
